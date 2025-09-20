@@ -217,6 +217,18 @@ ul {
 .placement-item:last-child {
   padding: 373px 53px 27px 54px;
   width: 373px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #fff;
+  background: url('../img/placement/9.jpg') center center / cover no-repeat;
+}
+
+.placement-item-link {
+  padding-right: 16px;
+  background: url('../img/placement/Rectangle-white.svg') right 50% no-repeat;
+  line-height: 40px;
+  vertical-align: middle;
 }
 
 .placement-picture {
