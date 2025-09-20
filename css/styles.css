@@ -19,6 +19,7 @@ img {
 
 body {
   font-family: Arial, sans-serif;
+  background: #e5e5e5;
 }
 
 ul {
@@ -211,6 +212,10 @@ ul {
 .placement-item:last-child {
   padding: 373px 53px 27px 54px;
   width: 373px;
+}
+
+.placement-picture {
+  border-radius: 15px 15px 0 0;
 }
 
 .placement-text {
