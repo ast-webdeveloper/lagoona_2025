@@ -198,10 +198,15 @@ ul {
   flex-wrap: wrap;
 }
 
-.placement-item {
+.placement-item:not(:last-child) {
   max-width: 374px;
   min-height: 440px;
+}
+
+.placement-item {
   border-radius: 15px;
+  font-size: 0;
+  background: #fff;
   outline: 1px solid #ccc;
 }
 
@@ -222,13 +227,41 @@ ul {
   padding: 36px 46px 41px 45px;
 }
 
+.star:not(:last-child) {
+  margin-right: 6px;
+}
+
 .placement-text-descr, .placement-star {
   display: inline-block;
   margin-bottom: 16px;
 }
 
+.placement-text-descr-1, .placement-text-descr-2, .placement-text-descr-3 {
+  display: inline-block;
+}
+
+.placement-text-descr-1 {
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #999;
+}
+
+.placement-text-descr-2 {
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.placement-text-descr-3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
 .placement-text-descr {
-  margin-right: 45px;
+  margin-right: 46px;
   max-width: 145px;
 }
 
