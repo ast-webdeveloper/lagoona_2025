@@ -122,3 +122,12 @@ ul {
 }
 
 /* end special */
+
+/* start about-us */
+
+.about-descr {
+  margin: 0;
+  max-width: 888px;
+}
+
+/* end about-us */
