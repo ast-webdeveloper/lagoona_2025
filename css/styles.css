@@ -164,3 +164,29 @@ ul {
 }
 
 /* end services */
+
+/* start advantage */
+
+.advantage-list {
+  flex-wrap: wrap;
+}
+
+.advantage-item {
+  padding: 116px 42px 41px 45px;
+  max-width: 275px;
+  min-height: 275px;
+}
+
+.advantage-item:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+
+.advantage-descr {
+  margin: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 23px;
+}
+
+/* end advantage */
