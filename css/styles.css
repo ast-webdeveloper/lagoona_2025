@@ -22,6 +22,8 @@ body {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -131,3 +133,34 @@ ul {
 }
 
 /* end about-us */
+
+/* start services */
+
+.services-list {
+  flex-wrap: wrap;
+}
+
+.services-item {
+  padding: 191px 126px 50px 45px;
+  max-width: 573px;
+  min-height: 330px;
+}
+
+.services-item:not(:nth-child(2n)) {
+  margin-right: 23px;
+}
+
+.services-item-1, .services-item-2 {
+  margin-bottom: 23px;
+}
+
+.services-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.services-descr {
+  margin: 0;
+}
+
+/* end services */
