@@ -267,10 +267,22 @@ ul {
 
 .placement-text-title {
   margin: 0 0 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
 }
 
 .placement-text-title-descr {
   margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
+}
+
+.placement-btn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c93;
 }
 
 /* end placement */
